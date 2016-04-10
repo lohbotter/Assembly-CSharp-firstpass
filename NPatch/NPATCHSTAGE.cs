@@ -1,0 +1,15 @@
+using System;
+
+namespace NPatch
+{
+	public enum NPATCHSTAGE
+	{
+		DEFAULT,
+		READYTASK,
+		CHECKTASK,
+		RUNNINGTASK,
+		STARTPRETASK,
+		ENDALLTASK,
+		ENDNPATCH
+	}
+}
